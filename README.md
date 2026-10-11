@@ -7,7 +7,7 @@ A high-throughput, stateless data ingestion buffer engineered via Python and Fas
 This public repository hosts the data validation schemas and structural specifications for linking external multi-channel pipelines directly into the edge membrane. External production networks, mobile commerce webhooks, and utility telemetry nodes connect via asynchronous HTTP POST requests straight to our dedicated network infrastructure outpost.
 
 ### Endpoint Topology
-* **URL Location:** https://universal-sovereign-engine-delta.vercel.app/
+* **URL Location:** https://universal-sovereign-engine-delta.vercel.app/api/ingest
 * **Method:** POST
 * **Content-Type:** application/json
 
