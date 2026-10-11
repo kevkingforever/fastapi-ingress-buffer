@@ -9,7 +9,7 @@ This public repository hosts the data validation schemas and structural specific
 
 Endpoint Topology
 
-• URL Location: vercel.app
+• URL Location: https://universal-sovereign-engine-delta.vercel.app/api/ingest
 • Method: POST
 • Content-Type: application/json
 System Alert for External Engineers: Do not route data traffic arrays to the generic cloud hosting root domain (https://vercel.app). Sending unmapped network payloads to the baseline platform hosting layer will trigger an immediate perimeter firewall block, returning an HTTP 403 Forbidden or 404 Not Found error. External connection pipelines must authenticate exclusively against the unique host path specified above.
@@ -55,4 +55,3 @@ json
   "transaction_status": "COMMITTED",
   "ingestion_delta_ns": 156225211,
   "origin_verified": "TEST_COMPANY_NODE"
-}
