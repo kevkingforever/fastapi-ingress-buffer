@@ -45,7 +45,6 @@ curl -X POST "https://universal-sovereign-engine-delta.vercel.app/api/ingest" \
      -H "x-signature-key: CANON_SOVEREIGN_NODE_SECURE_TOKEN_XYZ_2026" \
      -H "x-channel-origin: TEST_COMPANY_NODE" \
      -d "{\"transaction_id\": \"12345678-abcd-ef01-2345-6789abcdef01\", \"transaction_type\": \"MOMO_PAYMENT\", \"amount\": 100.00, \"currency\": \"GHS\", \"metadata\": {\"provider_node\": \"SANDBOX_CLIENT\", \"batch_id\": \"B_INIT_01\"}}"
-Use code with caution.
 
 Network Response Matrix
 
@@ -55,3 +54,4 @@ json
   "transaction_status": "COMMITTED",
   "ingestion_delta_ns": 156225211,
   "origin_verified": "TEST_COMPANY_NODE"
+}
