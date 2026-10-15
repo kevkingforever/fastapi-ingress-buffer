@@ -40,6 +40,7 @@ Sandbox Integration Test Command
 
 External developers can test perimeter connection status natively from any terminal interface using the following baseline simulation packet. Copy and run this command directly to ping your unique app container:
 bash
+
 curl -X POST "https://universal-sovereign-engine-delta.vercel.app/api/ingest" \
      -H "Content-Type: application/json" \
      -H "x-signature-key: CANON_SOVEREIGN_NODE_SECURE_TOKEN_XYZ_2026" \
